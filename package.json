@@ -9,17 +9,19 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "@nextui-org/button": "^2.0.26",
+    "@nextui-org/react": "^2.2.9",
+    "@nextui-org/system": "^2.0.15",
+    "@nextui-org/theme": "^2.1.17",
     "@tailwindcss/forms": "^0.5.7",
     "@types/node": "20.5.7",
     "@vercel/postgres": "^0.5.0",
-    "autoprefixer": "10.4.15",
     "bcrypt": "^5.1.1",
     "clsx": "^2.0.0",
+    "framer-motion": "^11.0.3",
     "next": "^14.0.2",
-    "postcss": "8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3",
     "typescript": "5.2.2",
     "zod": "^3.22.2"
   },
@@ -28,12 +30,15 @@
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.14",
     "@vercel/style-guide": "^5.0.1",
+    "autoprefixer": "^10.4.17",
     "dotenv": "^16.3.1",
     "eslint": "^8.52.0",
     "eslint-config-next": "^14.0.0",
     "eslint-config-prettier": "9.0.0",
+    "postcss": "^8.4.33",
     "prettier": "^3.0.3",
-    "prettier-plugin-tailwindcss": "0.5.4"
+    "prettier-plugin-tailwindcss": "0.5.4",
+    "tailwindcss": "^3.4.1"
   },
   "engines": {
     "node": ">=18.17.0"

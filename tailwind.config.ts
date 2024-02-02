@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import tailwindcss from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -8,6 +9,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/img/hero-pattern.svg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
+
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',
       },
@@ -16,6 +22,11 @@ const config: Config = {
           400: '#2589FE',
           500: '#0070F3',
           600: '#2F6FEB',
+        black: '#000',
+        darkGreen: {
+        DEFAULT: '#185A49',
+          500: '#28a745',
+          900: '#0C241B',
         },
       },
     },
@@ -28,5 +39,7 @@ const config: Config = {
     },
   },
   plugins: [require('@tailwindcss/forms')],
+}
 };
+
 export default config;

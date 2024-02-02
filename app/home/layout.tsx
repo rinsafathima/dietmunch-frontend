@@ -1,3 +1,7 @@
+import type { Metadata } from 'next'
+ 
+// These styles apply to every route in the application
+import '@/app/ui/global.css'
 import SideNav from '@/app/ui/home/sidenav';
  
 export default function Layout({ children }: { children: React.ReactNode }) {

@@ -1,9 +1,13 @@
 'use client';
 
 import {
-  UserGroupIcon,
+  UserIcon,
   HomeIcon,
-  DocumentDuplicateIcon,
+  CreditCardIcon,
+  ShoppingCartIcon,
+  CursorArrowRippleIcon,
+  MapPinIcon,
+
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -14,11 +18,14 @@ import clsx from 'clsx';
 const links = [
   { name: 'Home', href: '/home', icon: HomeIcon },
   {
-    name: 'Subscription Packges',
-    href: '/home/subscription',
-    icon: DocumentDuplicateIcon,
+    name: 'Cart',
+    href: '/home/cart',
+    icon: ShoppingCartIcon,
   },
-  { name: 'Join Now', href: '/home/join', icon: UserGroupIcon },
+  { name: 'Profile', href: '/home/profile', icon: UserIcon },
+  { name: 'Subscription', href: '/home/subscription', icon: CreditCardIcon },
+  { name: 'Join Now', href: '/home/join', icon: CursorArrowRippleIcon },
+  { name: 'Activity', href: '/home/activity', icon: MapPinIcon },
 ];
 
 export default function NavLinks() {
