@@ -6,9 +6,7 @@ import React from 'react';
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>My Next.js Tailwind Site</title>
-      </Head>
+    
 
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">

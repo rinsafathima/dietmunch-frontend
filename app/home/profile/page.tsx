@@ -3,13 +3,10 @@ import 'tailwindcss/tailwind.css'; // Import Tailwind CSS styles
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>My Next.js Tailwind Site</title>
-      </Head>
+    <div className="bg-gradient-to-r from-gray-600 to-gray-800 min-h-screen">
 
 
-<section className="text-gray-600 body-font">
+<section className="text-gray-100 body-font">
   <div className="container px-5 py-24 mx-auto flex flex-col">
     <div className="lg:w-4/6 mx-auto">
       <div className="rounded-lg h-64 overflow-hidden">
@@ -24,7 +21,7 @@ export default function Home() {
             </svg>
           </div>
           <div className="flex flex-col items-center text-center justify-center">
-            <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">Kaween Perera</h2>
+            <h2 className="font-medium title-font mt-4 text-gray-200 text-lg">Kaween Perera</h2>
             <div className="w-12 h-1 bg-green-500 rounded mt-2 mb-4"></div>
             <p className="text-base">My most bizarre food combination that surprisingly works: Apples and cheese, Peanut butter and bacon, Chocolate and avocado</p>
           </div>
