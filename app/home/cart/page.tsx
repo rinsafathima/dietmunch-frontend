@@ -4,7 +4,7 @@ export default function Home() {
 
       <section className="md:w-1/3 bg-white overflow-hidden flex flex-col justify-center items-center">
         {/* Replace with your image component or URL */}
-        <img src="/9.jpg" alt="image" width="750" height="600" className="mb-8" />
+        
       </section>
 
       <section className="text-gray-100 body-font md:w-1/2 overflow-hidden p-8">
