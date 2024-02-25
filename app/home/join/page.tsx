@@ -18,7 +18,7 @@ export default function Home() {
         
         <div className="flex flex-wrap -m-4">
         <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+        <div className="h-full p-6 rounded-lg border-2 border-green-500 flex flex-col relative overflow-hidden hover:border-teal-500 transition-colors duration-300 ease-in-out">
           
           <h2 className="text-sm tracking-widest title-font mb-1 font-medium">BASIC</h2>
           <h1 className="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Free</h1>
@@ -43,7 +43,7 @@ export default function Home() {
               </svg>
             </span>Basic recipe filtering based on dietary restrictions and allergies
           </p>
-          <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+          <button className="flex items-center mt-auto text-white bg-green-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-green-900 rounded transition-colors duration-300 ease-in-out">Buy
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -52,8 +52,8 @@ export default function Home() {
         </div>
         </div>
       
-        <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div className="h-full p-6 rounded-lg border-2 border-green-500 flex flex-col relative overflow-hidden">
+        <div className="p-4 xl:w-1/4 md:w-1/2 w-full hover:bg-teal-500 transition-colors duration-300 ease-in-out">
+          <div className="h-full p-6 rounded-lg border-2 border-green-500 flex flex-col relative overflow-hidden hover:border-teal-500 transition-colors duration-300 ease-in-out">
           <span className="bg-green-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
           <h2 className="text-sm tracking-widest title-font mb-1 font-medium">LITE</h2>
           <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
@@ -88,16 +88,17 @@ export default function Home() {
               </svg>
             </span>Advanced recipe filtering based on specific health goals 
           </p>
-          <button className="flex items-center mt-auto text-white bg-green-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-green-600 rounded">Button
+          <button className="flex items-center mt-auto text-white bg-green-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-green-900 rounded transition-colors duration-300 ease-in-out">BUY
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
           <p className="text-xs text-gray-500 mt-3">Underscore the deliciousness and diverse range of recipes offered.</p>
         </div>
+
       </div>
       <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+      <div className="h-full p-6 rounded-lg border-2 border-green-500 flex flex-col relative overflow-hidden hover:border-teal-500 transition-colors duration-300 ease-in-out">
           <h2 className="text-sm tracking-widest title-font mb-1 font-medium">ELITE</h2>
           <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
             <span>Rs. 17 500</span>
@@ -138,7 +139,7 @@ export default function Home() {
               </svg>
             </span>Integration with data-driven insights
           </p>
-          <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+          <button className="flex items-center mt-auto text-white bg-green-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-green-900 rounded transition-colors duration-300 ease-in-out">Buy
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -148,7 +149,7 @@ export default function Home() {
       </div>
    
       <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+      <div className="h-full p-6 rounded-lg border-2 border-green-500 flex flex-col relative overflow-hidden hover:border-teal-500 transition-colors duration-300 ease-in-out">
           <h2 className="text-sm tracking-widest title-font mb-1 font-medium">PREMIUM</h2>
           <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
             <span>Rs. 20 000</span>
@@ -189,7 +190,7 @@ export default function Home() {
               </svg>
             </span>Weekly coaching calls with a registered dietitian
           </p>
-          <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+          <button className="flex items-center mt-auto text-white bg-green-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-green-900 rounded transition-colors duration-300 ease-in-out">Buy
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>

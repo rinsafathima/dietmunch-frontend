@@ -83,24 +83,24 @@ const HomePage: React.FC<HomeProps> = () => {
             </div>
             <div className="md:p-2 p-1 w-full">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img className="object-cover object-center rounded" alt="hero" src="/background.jpg" />
+            <img className="object-cover object-center rounded" alt="hero" src="/5.jpg" />
           </div>
             </div>
           </div>
           <div className="flex flex-wrap w-1/2">
             <div className="md:p-2 p-1 w-full">
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img className="object-cover object-center rounded" alt="hero" src="/banner.jpg" />
+            <div className="lg:max-w-lg lg:w-full md:w-2/2 w-5/6">
+            <img className="object-cover object-center rounded" alt="hero" src="/6.jpg" />
           </div>
             </div>
             <div className="md:p-2 p-1 w-1/2">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img className="object-cover object-center rounded" alt="hero" src="/salads.jpg" />
+            <img className="object-cover object-center rounded" alt="hero" src="/11.jpg" />
           </div>
             </div>
             <div className="md:p-2 p-1 w-1/2">
               
-            <img className="object-cover object-center rounded" alt="hero" src="/pizza.jpg" />
+            <img className="object-cover object-center rounded" alt="hero" src="/3.jpg" />
             </div>
           </div>
         </div>

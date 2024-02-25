@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import 'tailwindcss/tailwind.css'; // Import Tailwind CSS styles
+import React from 'react';
 
 export default function Home() {
+
   return (
     <div className="bg-gradient-to-r from-gray-600 to-gray-800 min-h-screen">
-
-
-<section className="text-gray-100 body-font">
+  <section className="text-gray-100 body-font">
   <div className="container px-5 py-24 mx-auto flex flex-col">
     <div className="lg:w-4/6 mx-auto">
       <div className="rounded-lg h-64 overflow-hidden">
@@ -30,9 +30,8 @@ export default function Home() {
           <p className="leading-relaxed text-lg mb-4">Once, my meal plans resembled meticulously crafted blueprints, destined to crumble under the slightest real-world pressure. 
           Time was my nemesis, constantly stealing away minutes for prep and shopping. Unforeseen events, like impromptu gatherings or forgotten ingredients, sent everything into disarray. 
           Discouragement gnawed at me, questioning if healthy eating through planning was even possible.
-
-But instead of surrendering, I decided to adapt.</p>
-          <a className="text-green-500 inline-flex items-center">Learn More
+          But instead of surrendering, I decided to adapt.</p>
+          <a className="text-green-500 inline-flex items-center">View Meal Plan
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -41,7 +40,10 @@ But instead of surrendering, I decided to adapt.</p>
       </div>
     </div>
   </div>
+
+  
 </section>
 </div>
 );
 }
+
