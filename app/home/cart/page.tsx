@@ -1,12 +1,11 @@
 export default function Home() {
   return (
-    <div className="bg-gradient-to-r from-gray-600 to-gray-800 min-h-screen flex flex-col md:flex-row flex-wrap md:space-x-8">
+    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-gray-600 to-gray-800">
 
-      <section className="md:w-1/3 bg-white overflow-hidden flex flex-col justify-center items-center">
-        {/* Replace with your image component or URL */}
-        
-      </section>
+    <div className="w-full max-w-4xl mx-auto flex flex-col md:flex-row md:space-x-8">
 
+
+    
       <section className="text-gray-100 body-font md:w-1/2 overflow-hidden p-8">
         <h2 className="text-gray-100 text-lg mb-1 font-medium title-font">Checkout</h2>
         <p className="leading-relaxed mb-5 text-gray-100">
@@ -85,6 +84,7 @@ export default function Home() {
           </button>
         </form>
       </section>
+      </div>
 
     </div>
   );
