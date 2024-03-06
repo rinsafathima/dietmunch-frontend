@@ -8,30 +8,31 @@ export default function Home() {
           
           <section className="body-font overflow-hidden p-6">
           
-            <div className="w-5/6 h-5/6 bg-purple-400 rounded-lg mr-8 ml-10 mt-5  ">
-              <h1 className="font-serif text-4xl font-medium">Place Order..</h1>
+            <div className="w-5/6 h-5/6 bg-blue-700 rounded-lg mr-8 ml-10 mt-5  ">
+              <h1 className="font-serif text-2xl font-medium">Proceed to make a shedule with dietician</h1>
             </div>
          
-            <div className="p-[15px]"> </div>
+            <div className="p-[10px]"> </div>
             
 
             <p className="leading-relaxed mb-5 text-gray-900 font-medium font-sans">By placing your order, you agree to our application Privacy policy and Conditions of use.</p>
             <hr className="my-4" style={{ borderColor: 'black' }} /> 
 
-              <p className="leading-relaxed mb-5 text-gray-900 text-3xl font-sans"> Order Summary </p>
+              <p className="leading-relaxed mb-5 text-gray-900 text-xl font-sans"> Enjoy your Subscription plan for a month </p>
 
-              <div className="p-[40px]"> </div>
-
-              <p className="leading-relaxed mb-5 text-gray-900 text-xl font-sans"> Package Elite </p>            
+              <div className="p-[100px]"> </div>
+         
               <hr className="my-4" style={{ borderColor: 'black' }} />
 
-              <p className="leading-relaxed mb-5 text-gray-900 text-2xl font-sans"> Order Total </p>  
+              <div className="p-[10px]"> </div>
+
+          
 
 
           </section>
         </div>
 
-        <div className="h-fit w-2/5 bg-fuchsia-200 rounded-lg mr-20 ml-auto mt-20 ">
+        <div className="h-fit w-2/5 bg-white rounded-lg mr-20 ml-auto mt-20 ">
           
         <section className="body-font overflow-hidden p-6">
         <div className="p-[10px]"> </div>
@@ -118,4 +119,6 @@ export default function Home() {
       </div>
     );
   }
-  
+      
+      
+      
