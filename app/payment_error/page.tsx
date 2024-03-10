@@ -9,7 +9,7 @@ export default function Home() {
           <section className="body-font overflow-hidden p-6">
           
             <div className="w-5/6 h-5/6 bg-blue-700 rounded-lg mr-8 ml-10 mt-5  ">
-              <h1 className="font-serif text-2xl font-medium">Proceed to make a shedule with dietician</h1>
+              <h1 className="font-serif text-2xl font-medium ml-40">Try again</h1>
             </div>
          
             <div className="p-[10px]"> </div>
@@ -18,7 +18,7 @@ export default function Home() {
             <p className="leading-relaxed mb-5 text-gray-900 font-medium font-sans">By placing your order, you agree to our application Privacy policy and Conditions of use.</p>
             <hr className="my-4" style={{ borderColor: 'black' }} /> 
 
-              <p className="leading-relaxed mb-5 text-gray-900 text-2xl font-sans"> Enjoy your Subscription plan for a month </p>
+              <p className="leading-relaxed mb-5 text-gray-900 text-2xl font-sans"> Order Summary </p>
 
               <div className="p-[100px]"> </div>
          
@@ -38,25 +38,22 @@ export default function Home() {
         <div className="p-[10px]"> </div>
 
         <div className="mb-4">
-          <img src="/IMG_8088.png" className="max-w-full h-96 rounded-full ml-16 " alt="" />
+          <img src="/error.png" className="max-w-full h-96 rounded-full ml-16 " alt="" />
         </div>
 
-          <p className="leading-relaxed mb-5 text-gray-900 font-large text-4xl font-sans ml-40"> Thank You! </p>
-            <p className="leading-relaxed mb-5 text-gray-900 font-large text-xl font-sans ml-32"> Payment done Sucessfully.. </p> 
+          <p className="leading-relaxed mb-5 text-gray-900 font-large text-4xl font-sans ml-40"> Payment Error! </p>
+            <p className="leading-relaxed mb-5 text-gray-900 font-large text-base font-sans text-center"> Please check your security code, card details and connection and try again.</p> 
+            
 
             <button
               type="submit"
-              className="inline-flex items-center px-4 py-2 bg-green-400 border-0 rounded ml-52 text-white font-medium hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-            >HOME
+              className="inline-flex items-center px-4 py-2 bg-red-600 border-0 rounded ml-32 text-white font-medium hover:bg-red-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 "
+            >BACK TO PAYMENT SELECTION
             </button>
-
-            
+   
          
         </section>
         </div>
       </div>
     );
   }
-      
-      
-      
