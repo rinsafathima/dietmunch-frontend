@@ -8,8 +8,8 @@ export default function Home() {
           
           <section className="body-font overflow-hidden p-6">
           
-            <div className="w-5/6 h-5/6 bg-purple-400 rounded-lg mr-8 ml-5 mt-5  ">
-              <h1 className="font-serif text-4xl font-medium">Place Order..</h1>
+            <div className="w-5/6 h-5/6 bg-fuchsia-700 rounded-lg mr-8 ml-5 mt-5  ">
+              <h1 className="font-serif text-4xl font-medium ml-20">Place Order</h1>
             </div>
          
             <div className="p-[15px]"> </div>
@@ -107,7 +107,7 @@ export default function Home() {
 
             <button
               type="submit"
-              className="inline-flex items-center px-4 py-2 bg-indigo-500 border-0 rounded text-white font-medium hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="inline-flex items-center px-4 py-2 bg-fuchsia-800 border-0 rounded text-white font-medium hover:bg-fuchsia-950 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >Complete Checkout
             </button>
 
