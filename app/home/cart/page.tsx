@@ -1,6 +1,6 @@
 import React from 'react';
-import visa from '../../../public/visa.svg'
-import master from '../../../public/master.svg'
+import visa from '../../../public/visa.png'
+import master from '../../../public/master.png'
 import Image from 'next/image';
 export default function Home() {
     return (
@@ -42,17 +42,17 @@ export default function Home() {
           <hr className="my-4" style={{ borderColor: 'black' }} /> 
 
           <p className="leading-relaxed mb-5 text-gray-900 font-medium font-sans"> Payment Method: </p>
-
-              <button type="button" className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-800 dark:bg-white dark:border-gray-700 dark:text-gray-900 dark:hover:bg-gray-200 me-2 mb-2">
-                  <Image src = {visa} alt='visa' width={45}/>
+          <div className='flex mb-4'>
+              <button type="button" className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-800 dark:bg-white dark:border-gray-700 dark:text-gray-900 dark:hover:bg-gray-200 mr-2">
+                  <Image src = {visa} alt='visa' width={31} style={{marginRight: 5}}/>
                   Pay with Visa
               </button>
 
-              <button type="button" className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 me-2 mb-2">
+              <button type="button" className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 ml-2">
                 <Image src = {master} alt='master' width={31}/>
                   Pay with MasterCard
               </button>
-          
+              </div>
             
            
           <form className="space-y-4">
