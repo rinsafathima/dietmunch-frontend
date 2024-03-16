@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+
 import Link from 'next/link';
 export default function Home() {
     return (
@@ -23,7 +23,7 @@ export default function Home() {
                 id="name"
                 name="name"
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                required
+    
               />
             </div>
             </form>
@@ -39,7 +39,7 @@ export default function Home() {
                 id="name"
                 name="name"
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                required
+                
               />
             </div>
             </form>
@@ -55,7 +55,7 @@ export default function Home() {
                 id="name"
                 name="name"
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                required
+            
               />
             </div>
             </form>
@@ -71,7 +71,7 @@ export default function Home() {
                 id="name"
                 name="name"
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                required
+               
               />
             </div>
             </form>
@@ -87,7 +87,7 @@ export default function Home() {
                 id="name"
                 name="name"
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                required
+                
               />
             </div>
             </form>
@@ -103,7 +103,7 @@ export default function Home() {
                 id="name"
                 name="name"
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                required
+                
               />
             </div>
             </form>
@@ -119,7 +119,7 @@ export default function Home() {
                 id="name"
                 name="name"
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                required
+         
               />
             </div>
             </form>
@@ -129,7 +129,7 @@ export default function Home() {
         </section>
       </div>
 
-      <div className=" w-11/12 mt-8 mb-12 mr-24 -ml-20 bg-gray-200 rounded-lg p-4 m-4">
+      <div className=" w-7/12 mt-8 mb-12 mr-24 -ml-20 bg-gray-200 rounded-lg p-4 m-4">
       <h1 className="font-sans text-2xl ml-16 mt-7 font-medium "><b>Health Goals: </b></h1>
       <p className='font-serif text-xl ml-24 mt-3'>Primary Goal:</p>
       <p className='font-serif text-xl ml-24 mt-2'>Cuisine Type:</p>
@@ -147,7 +147,17 @@ export default function Home() {
       <h1 className="font-sans text-2xl ml-16 mt-7 font-medium "><b>Personal Notes: </b></h1>
       <p className='font-serif text-xl ml-24 mt-3'>- </p>
       <p className='font-serif text-xl ml-24 mt-2'>- </p>
+
+      <Link href="../../edit_profile">
+            <button
+                type="submit"
+                className=" mt-7 ml-96 -mb-16 px-16 py-1 bg-sky-500 border-0 rounded text-white font-medium hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-200"
+                >Done
+            </button>
+        </Link>
+
       </div>
+
       </div>
     );
   }
