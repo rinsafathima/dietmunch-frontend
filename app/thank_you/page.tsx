@@ -1,4 +1,6 @@
 import React from 'react';
+
+import Link from 'next/link';
 export default function Home() {
     return (
       
@@ -41,12 +43,13 @@ export default function Home() {
           <p className="leading-relaxed mb-5 text-gray-900 font-large text-4xl font-sans ml-40"> Thank You! </p>
             <p className="leading-relaxed mb-5 text-gray-900 font-large text-xl font-sans ml-32"> Payment done Sucessfully.. </p> 
 
-            <button
-              type="submit"
-              className="inline-flex items-center px-4 py-2 bg-green-400 border-0 rounded ml-52 text-white font-medium hover:bg-green-800"
-            >HOME
-            </button>
-
+            <Link href="../home">
+              <button
+                type="submit"
+                className="inline-flex items-center px-4 py-2 bg-green-400 border-0 rounded ml-52 text-white font-medium hover:bg-green-800"
+                >HOME
+              </button>
+            </Link>
 
          
         </section>
