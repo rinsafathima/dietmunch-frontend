@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 export default function Home() {
     return (
       
@@ -45,11 +46,14 @@ export default function Home() {
             <p className="leading-relaxed mb-5 text-gray-900 font-large text-base font-sans text-center"> Please check your security code, card details and connection and try again.</p> 
             
 
-            <button
-              type="submit"
-              className="inline-flex items-center px-4 py-2 bg-red-600 border-0 rounded ml-32 text-white font-medium hover:bg-red-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 "
-            >BACK TO PAYMENT SELECTION
-            </button>
+            <Link href="../home/cart">
+              <button
+                type="submit"
+                className="inline-flex items-center px-4 py-2 bg-red-600 border-0 rounded ml-32 text-white font-medium hover:bg-red-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 "
+                >BACK TO PAYMENT SELECTION
+              </button>
+            </Link>
+            
    
          
         </section>
