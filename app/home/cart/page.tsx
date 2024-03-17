@@ -6,9 +6,9 @@ import Link from 'next/link';
 export default function Home() {
     return (
       
-      <div className="bg-white flex"> 
+      <div className="bg-gradient-to-r from-gray-600 to-gray-800 flex"> 
 
-        <div className="h-fit w-3/5 bg-gray-200 rounded-lg mt-28 mr-16">
+        <div className="h-fit w-3/5 ml-10 bg-gray-200 rounded-lg mt-28 mr-16">
           
           <section className="body-font overflow-hidden p-6">
           
@@ -35,7 +35,7 @@ export default function Home() {
           </section>
         </div>
 
-        <div className="h-fit w-3/5 bg-fuchsia-200 rounded-lg mr-20 mt-16 ml-auto ">
+        <div className="h-fit w-3/5 bg-fuchsia-200 rounded-lg mr-10 mb-16 mt-16 ml-auto ">
           
         <section className="body-font overflow-hidden p-6">
         <div className="p-[10px]"> </div>
