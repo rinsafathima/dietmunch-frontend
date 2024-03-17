@@ -36,7 +36,7 @@ export default function Home() {
               <Link href="../../edit_profile">
                 <button
                   type="submit"
-                  className=" mt-7 ml-48 -mb-16 px-3 py-1 bg-rose-500 border-0 rounded text-white font-medium hover:bg-rose-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-200"
+                  className=" mt-7 ml-48 -mb-16 px-3 py-1 bg-sky-500 border-0 rounded text-white font-medium hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-200"
                   >Edit
                 </button>
               </Link>
@@ -63,6 +63,15 @@ export default function Home() {
       <h1 className="font-sans text-2xl ml-16 mt-7 font-medium "><b>Personal Notes: </b></h1>
       <p className='font-serif text-xl ml-24 mt-3'>- </p>
       <p className='font-serif text-xl ml-24 mt-2'>- </p>
+
+      <Link href="../Meal_Plan">
+            <button
+              type="submit"
+              className="inline-flex mt-32 ml-36 items-center px-7 py-1 bg-green-500 border-0 rounded text-white font-medium hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            >View your meal Plan
+            </button>
+          </Link>
+
       </div>
 
     </div>
