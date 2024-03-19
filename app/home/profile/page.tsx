@@ -5,6 +5,7 @@ import Link from 'next/link';
 export default function Home() {
 
   return (
+    
 
     <div className="bg-gradient-to-r from-gray-600 to-gray-800 flex">
       <div className="h-fit w-3/5 rounded-lg mt-0 mr-16 ml-20">
@@ -64,7 +65,7 @@ export default function Home() {
       <p className='font-serif text-xl ml-24 mt-3'>- </p>
       <p className='font-serif text-xl ml-24 mt-2'>- </p>
 
-      <Link href="../Meal_Plan">
+      <Link href="profile/Meal_Plan">
             <button
               type="submit"
               className="inline-flex mt-32 ml-36 items-center px-7 py-1 bg-green-500 border-0 rounded text-white font-medium hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
