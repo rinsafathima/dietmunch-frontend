@@ -2,6 +2,9 @@ import Head from 'next/head';
 import 'tailwindcss/tailwind.css'; // Import Tailwind CSS styles
 import React from 'react';
 // import Map from './Map';
+import Link from 'next/link';
+
+
 
 export default function Home() {
   return (
@@ -106,8 +109,10 @@ export default function Home() {
 
 
             <div className="flex justify-center">
-            <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Book Your Session</button>
-            </div>
+                <Link href="activity/booking-page">
+                        <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-900 rounded text-lg">Book Your Session</button>
+                        </Link>
+                        </div>
           </div>
         </div>
 
