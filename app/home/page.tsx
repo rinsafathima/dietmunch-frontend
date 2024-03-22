@@ -44,15 +44,16 @@ const HomePage: React.FC<HomeProps> = () => {
         </div>
       </nav>
 
-      <div className="parallax-background">
-      <div className="relative overflow-hidden bg-cover bg-no-repeat" style={{ backgroundPosition: '50%', backgroundImage: "url('/subscribe.jpg')", height: '500px' }}>
-        <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.75)] bg-fixed">
+      <div className="parallax-background mt-[-16px]">
+      <div className="relative  overflow-hidden bg-cover bg-no-repeat" style={{ backgroundPosition: '50%', backgroundImage: "url('/subscribe.jpg')", height: '500px' }}>
+        <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed">
           <div className="flex h-full items-center justify-center">
             <div className="px-6 text-center text-white md:px-12">
-              <h1 className="mt-2 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
+              <h1 className="mt-[-150px] ml-[475px] mb-16 text-5xl font-bold tracking-tight text-center md:text-9xl:text-11xl">
                 Personalized meal plan<br /><span>for a healthy lifestyle</span>
               </h1>
-              <button type="button" className="rounded border-2 border-neutral-50 px-[46px] pt-[14px] pb-[12px] text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-100 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200">
+              <button type="button" className="rounded border-2 ml-[475px] border-neutral-50 px-[46px] pt-[14px] pb-[12px] text-sm font-medium uppercase leading-normal text-neutral-50 transition
+               duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-100 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200">
                 Get started
               </button>
             </div>
@@ -62,13 +63,95 @@ const HomePage: React.FC<HomeProps> = () => {
       </div>
     </section>
 
+      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col mt-[-160px] items-center"
+      style={{ backgroundColor: '#E7FBD7'}}>
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+            Welcome to Diet Munch
+            {/* <br classname="hidden lg:inline-block">readymade gluten */}
+            </h1>
+            <p className="mb-8 leading-relaxed">Imagine having your own personal nutritionist at your fingertips, guiding you towards a healthier lifestyle with ease. 
+            Our platform offers precisely that – a tailored experience crafted to suit your individual needs and preferences. 
+            Through personalized meal plans, we empower you to take control of your health journey, whether you're aiming to shed extra weight or simply maintain a balanced diet.</p>
+            <p className="mb-8 leading-relaxed">Gone are the days of generic diet plans that don't fit your lifestyle. 
+            With us, you'll receive nutrition solutions customized to your unique requirements. 
+            We understand that every individual is different, which is why our platform takes into account your dietary preferences, health goals, and lifestyle factors to curate a plan that works best for you.</p>
+            <p className="mb-8 leading-relaxed">Our goal is to make achieving better health and vitality a seamless and enjoyable process. By joining our platform, 
+            you're not just accessing meal plans – you're embarking on a transformative journey towards a healthier, happier you. 
+            Say goodbye to guesswork and hello to a personalized approach to wellness. Let's embark on this journey together!</p>
+          </div>
+        </div>
+
+
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        style={{ backgroundColor: '#213737'}}>
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-200">
+            User Registration
+            </h1>
+            <p className="mb-8 leading-relaxed  text-gray-400">Get started in seconds! Diet Munch with NutriPal for a personalised journey to better health. Input your preferences, set goals, and dive into a world of tailored meal plans and expert guidance. Your path to wellness begins here.</p>
+
+            
+          </div>
+        </div>
+
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col mt-[0px] items-center"
+      style={{ backgroundColor: '#E7FBD7'}}>
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+            Welcome to Diet Munch
+            {/* <br classname="hidden lg:inline-block">readymade gluten */}
+            </h1>
+            <p className="mb-8 leading-relaxed">Imagine having your own personal nutritionist at your fingertips, guiding you towards a healthier lifestyle with ease. 
+            Our platform offers precisely that – a tailored experience crafted to suit your individual needs and preferences. 
+            Through personalized meal plans, we empower you to take control of your health journey, whether you're aiming to shed extra weight or simply maintain a balanced diet.</p>
+            <p className="mb-8 leading-relaxed">Gone are the days of generic diet plans that don't fit your lifestyle. 
+            With us, you'll receive nutrition solutions customized to your unique requirements. 
+            We understand that every individual is different, which is why our platform takes into account your dietary preferences, health goals, and lifestyle factors to curate a plan that works best for you.</p>
+            <p className="mb-8 leading-relaxed">Our goal is to make achieving better health and vitality a seamless and enjoyable process. By joining our platform, 
+            you're not just accessing meal plans – you're embarking on a transformative journey towards a healthier, happier you. 
+            Say goodbye to guesswork and hello to a personalized approach to wellness. Let's embark on this journey together!</p>
+          </div>
+        </div>
+
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        style={{ backgroundColor: '#213737'}}>
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-200">
+            📧 Contact me today to schedule your initial consultation and take the first step towards a healthier you!
+            {/* <br classname="hidden lg:inline-block">readymade gluten */}
+            </h1>
+            <p className="mb-8 leading-relaxed  text-gray-400">Email: abc@gmail.com</p>
+
+            <p className="mb-8 leading-relaxed  text-gray-400">Phone: 0123456789</p>
+
+            <p className="mb-8 leading-relaxed text-gray-400">
+            Virtual Consultations: <br />
+            I offer virtual consultations via Zoom, Skype, or your preferred platform. 
+            To schedule an appointment, please reach out through email or direct message on social media.</p>
+            
+            <p className="mb-8 leading-relaxed text-gray-400" >
+            Office Hours: <br />
+              Monday to Friday: [Your Operating Hours] <br />
+              Saturday: [Your Operating Hours] <br />
+              Sunday: [Your Operating Hours]
+            </p>
+
+            <p className="mb-8 leading-relaxed text-gray-400">Feel free to send me a message, and lets 
+            start your journey towards a healthier lifestyle!!</p>
+
+
+            <div className="flex justify-center">
+            <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Book Your Session</button>
+            </div>
+          </div>
+        </div>
+
+
+
+
 
       <section className="text-gray-200 body-font">
-      <div className="container px-5 py-24 mx-auto flex flex-wrap">
-        <div className="flex w-full mb-20 flex-wrap">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-100 lg:w-1/3 lg:mb-0 mb-4">The Palce where you acheive your Health goals</h1>
-          <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">The Palce where you acheive your Health goals. Subscribe to a preferred package and Get your meal plans delivereded to your doorstep according to yuor preference.</p>
-        </div>
         <div className="flex flex-wrap md:-m-2 -m-1">
           <div className="flex flex-wrap w-1/2">
             <div className="md:p-2 p-1 w-1/2">
@@ -104,7 +187,7 @@ const HomePage: React.FC<HomeProps> = () => {
             </div>
           </div>
         </div>
-      </div>
+      
       
     </section>
     </div>
