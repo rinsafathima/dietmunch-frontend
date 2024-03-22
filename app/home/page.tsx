@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
 
 interface HomeProps {}
@@ -63,8 +64,9 @@ const HomePage: React.FC<HomeProps> = () => {
       </div>
     </section>
 
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col mt-[-160px] items-center"
-      style={{ backgroundColor: '#E7FBD7'}}>
+          
+
+      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col mt-[-160px] items-center bg-green-200">
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             Welcome to Diet Munch
@@ -83,72 +85,60 @@ const HomePage: React.FC<HomeProps> = () => {
         </div>
 
 
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
-        style={{ backgroundColor: '#213737'}}>
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center  bg-teal-600">
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-200">
             User Registration
             </h1>
-            <p className="mb-8 leading-relaxed  text-gray-400">Get started in seconds! Diet Munch with NutriPal for a personalised journey to better health. Input your preferences, set goals, and dive into a world of tailored meal plans and expert guidance. Your path to wellness begins here.</p>
+            
+            <p className="mb-8 leading-relaxed  text-gray-900">Get started in seconds! Diet Munch with NutriPal for a <br/>personalised journey to better health. 
+            Input your preferences,<br/> set goals, and dive into a world of tailored meal plans and expert<br/> guidance. Your path to wellness begins here.</p>
 
+            <div>
+            <Link href="">
+            <button
+              type="submit"
+              className="inline-flex ml-36 items-center ml-9 px-4 py-2 bg-emerald-900 border-0 rounded text-white font-medium hover:bg-green-950 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-lime-300"
+            >SignUP
+            </button>
+          </Link>
+
+
+          <Link href="">
+            <button
+              type="submit" 
+              className="inline-flex items-center ml-[70px]  mt-[-100px] px-4 py-2 bg-emerald-900 border-0 ml-44 rounded text-white font-medium hover:bg-green-950 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-lime-300"
+            >Login
+            </button>
+          </Link>
+
+            </div>            
+          </div>
+          
+        </div>
+
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center bg-green-200">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 className="title-font sm:text-4xl ml-[385px] text-3xl mb-4 font-medium text-gray-900">
+            Nutritionist consultant
+            {/* <br classname="hidden lg:inline-block">readymade gluten */}
+            </h1>
+            <p className="mb-8 leading-relaxed ml-[385px]  text-gray-900">Connect with our expert nutritionists for personalised<br/> guidance on your health goals.
+             Our dedicated  consultants<br/> provide tailored advice, answer your queries, and ensure you <br/>stay on the right track. Elevate your journey to optimal <br/> wellness with Diet Munch's professional nutritionist consultations.</p>
+
+             <div>
+            <Link href="">
+            <button
+              type="submit"
+              className="inline-flex ml-[450px] items-center ml-9 px-4 py-2 bg-emerald-900 border-0 rounded text-white font-medium hover:bg-green-950 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-lime-300"
+            >SignUP
+            </button>
+          </Link>
+
+            </div>  
             
           </div>
         </div>
-
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col mt-[0px] items-center"
-      style={{ backgroundColor: '#E7FBD7'}}>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-            Welcome to Diet Munch
-            {/* <br classname="hidden lg:inline-block">readymade gluten */}
-            </h1>
-            <p className="mb-8 leading-relaxed">Imagine having your own personal nutritionist at your fingertips, guiding you towards a healthier lifestyle with ease. 
-            Our platform offers precisely that – a tailored experience crafted to suit your individual needs and preferences. 
-            Through personalized meal plans, we empower you to take control of your health journey, whether you're aiming to shed extra weight or simply maintain a balanced diet.</p>
-            <p className="mb-8 leading-relaxed">Gone are the days of generic diet plans that don't fit your lifestyle. 
-            With us, you'll receive nutrition solutions customized to your unique requirements. 
-            We understand that every individual is different, which is why our platform takes into account your dietary preferences, health goals, and lifestyle factors to curate a plan that works best for you.</p>
-            <p className="mb-8 leading-relaxed">Our goal is to make achieving better health and vitality a seamless and enjoyable process. By joining our platform, 
-            you're not just accessing meal plans – you're embarking on a transformative journey towards a healthier, happier you. 
-            Say goodbye to guesswork and hello to a personalized approach to wellness. Let's embark on this journey together!</p>
-          </div>
-        </div>
-
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
-        style={{ backgroundColor: '#213737'}}>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-200">
-            📧 Contact me today to schedule your initial consultation and take the first step towards a healthier you!
-            {/* <br classname="hidden lg:inline-block">readymade gluten */}
-            </h1>
-            <p className="mb-8 leading-relaxed  text-gray-400">Email: abc@gmail.com</p>
-
-            <p className="mb-8 leading-relaxed  text-gray-400">Phone: 0123456789</p>
-
-            <p className="mb-8 leading-relaxed text-gray-400">
-            Virtual Consultations: <br />
-            I offer virtual consultations via Zoom, Skype, or your preferred platform. 
-            To schedule an appointment, please reach out through email or direct message on social media.</p>
-            
-            <p className="mb-8 leading-relaxed text-gray-400" >
-            Office Hours: <br />
-              Monday to Friday: [Your Operating Hours] <br />
-              Saturday: [Your Operating Hours] <br />
-              Sunday: [Your Operating Hours]
-            </p>
-
-            <p className="mb-8 leading-relaxed text-gray-400">Feel free to send me a message, and lets 
-            start your journey towards a healthier lifestyle!!</p>
-
-
-            <div className="flex justify-center">
-            <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Book Your Session</button>
-            </div>
-          </div>
-        </div>
-
-
-
 
 
       <section className="text-gray-200 body-font">
@@ -187,10 +177,21 @@ const HomePage: React.FC<HomeProps> = () => {
             </div>
           </div>
         </div>
-      
-      
     </section>
+
+
+      
+    <div>
+      <img className="h-80 w-80 mr-20 ml-[700px] -mt-[1405px]" alt="hero" src="/200.jpeg" />
+  <img className="h-80 w-80 mr-20 ml-[100px] -mt-[-100px]" alt="hero" src="/201.jpeg" />
+  </div>
+    
+
+
+          
+
     </div>
+     
   );
 };
 
