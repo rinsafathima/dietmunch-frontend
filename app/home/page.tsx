@@ -125,7 +125,7 @@ const HomePage: React.FC<HomeProps> = () => {
             {/* <br classname="hidden lg:inline-block">readymade gluten */}
             </h1>
             <p className="mb-8 leading-relaxed ml-[385px]  text-gray-900">Connect with our expert nutritionists for personalised<br/> guidance on your health goals.
-             Our dedicated  consultants<br/> provide tailored advice, answer your queries, and ensure you <br/>stay on the right track. Elevate your journey to optimal <br/> wellness with Diet Munch&apos;s professional nutritionist consultations.</p>
+             Our dedicated  consultants<br/> provide tailored advice, answer your queries, and ensure you <br/>stay on the right track. Elevate your journey to optimal <br/> wellness with Diet Munchs professional nutritionist consultations.</p>
 
              <div>
             <Link href="">
@@ -142,9 +142,9 @@ const HomePage: React.FC<HomeProps> = () => {
         </div>
 
 
-      <section className="text-gray-200 body-font">
-        <div className="flex flex-wrap md:-m-2 -m-1">
-          <div className="flex flex-wrap w-1/2">
+      <section className="text-gray-200  ml-[8px] body-font">
+        <div className="flex bg-gradient-to-r from-gray-600 to-gray-800 w-[1089px] flex-wrap md:-m-2 -m-1">
+          <div className="flex  flex-wrap w-1/2">
             <div className="md:p-2 p-1 w-1/2">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img className="object-cover object-center rounded" alt="hero" src="/1.jpg" />
@@ -183,8 +183,8 @@ const HomePage: React.FC<HomeProps> = () => {
 
       
     <div>
-      <img className="h-80 w-80 mr-20 ml-[700px] -mt-[1405px]" alt="hero" src="/200.jpeg" />
-  <img className="h-80 w-80 mr-20 ml-[100px] -mt-[-100px]" alt="hero" src="/201.jpeg" />
+      <img className="h-80 w-80 mr-20 ml-[700px] -mt-[1450px]" alt="hero" src="/200.jpeg" />
+  <img className="h-80 w-80 mr-20 ml-[100px] -mt-[-110px]" alt="hero" src="/201.jpeg" />
   </div>
     
 
