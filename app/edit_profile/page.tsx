@@ -133,7 +133,7 @@ export default function Home() {
       <h1 className="font-sans text-2xl ml-8 mt-7 mb-3 font-medium "><b>Health Goals: </b></h1>
 
       <div>
-      <label htmlFor="textInput" className='font-serif text-xl text-black font-medium ml-16 mt-3'>Primary Goal: </label>
+      <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Primary Goal: </label>
       <input
         type="text"
         id="textInput"
@@ -142,7 +142,7 @@ export default function Home() {
       </div>
 
       <div>
-      <label htmlFor="textInput" className='font-serif text-xl text-black font-medium ml-16 mt-3'>Cuisine Type: </label>
+      <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Cuisine Type: </label>
       <input
         type="text"
         id="textInput"
@@ -151,7 +151,7 @@ export default function Home() {
       </div>
 
       <div>
-      <label htmlFor="textInput" className='font-serif text-xl text-black font-medium ml-16 mt-3'>Timeline: </label>
+      <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Timeline: </label>
       <input
         type="text"
         id="textInput"
@@ -162,7 +162,7 @@ export default function Home() {
       <h1 className="font-sans text-2xl ml-8 mt-7 mb-3 font-medium  "><b>Dietary Preferences:</b></h1>
 
       <div>
-      <label htmlFor="textInput" className='font-serif text-xl text-black font-medium ml-16 mt-3'>Cuisine Type: </label>
+      <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Cuisine Type: </label>
       <input
         type="text"
         id="textInput"
@@ -171,7 +171,7 @@ export default function Home() {
       </div>
 
       <div>
-      <label htmlFor="textInput" className='font-serif text-xl text-black font-medium ml-16 mt-3'>Allergies: </label>
+      <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Allergies: </label>
       <input
         type="text"
         id="textInput"
@@ -180,7 +180,7 @@ export default function Home() {
       </div>
 
       <div>
-      <label htmlFor="textInput" className='font-serif text-xl text-black font-medium ml-16 mt-3'>Dietary Restrictions: </label>
+      <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Dietary Restrictions: </label>
       <input
         type="text"
         id="textInput"
@@ -192,7 +192,7 @@ export default function Home() {
 
 
       <div>
-      <label htmlFor="textInput" className='font-serif text-xl text-black font-medium ml-16 mt-3'>Meal Frequency: </label>
+      <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Meal Frequency: </label>
       <input
         type="text"
         id="textInput"
@@ -201,7 +201,7 @@ export default function Home() {
       </div>
 
       <div>
-      <label htmlFor="textInput" className='font-serif text-xl text-black font-medium ml-16 mt-3'>Water Intake Goal: </label>
+      <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Water Intake Goal: </label>
       <input
         type="text"
         id="textInput"
@@ -223,6 +223,9 @@ export default function Home() {
                 >Done
             </button>
         </Link>
+
+        
+
 
       </div>
 

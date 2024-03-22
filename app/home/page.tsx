@@ -1,3 +1,5 @@
+
+
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -72,16 +74,15 @@ const HomePage: React.FC<HomeProps> = () => {
             Welcome to Diet Munch
             {/* <br classname="hidden lg:inline-block">readymade gluten */}
             </h1>
-            <p className="mb-8 leading-relaxed">Imagine having your own personal nutritionist at your fingertips, guiding you towards a healthier lifestyle with ease. 
-            Our platform offers precisely that – a tailored experience crafted to suit your individual needs and preferences. 
-            Through personalized meal plans, we empower you to take control of your health journey, whether you're aiming to shed extra weight or simply maintain a balanced diet.</p>
-            <p className="mb-8 leading-relaxed">Gone are the days of generic diet plans that don't fit your lifestyle. 
-            With us, you'll receive nutrition solutions customized to your unique requirements. 
+            <p className="mb-8 leading-relaxed">Imagine having your own personal nutritionist at your fingertips, guiding you towards a healthier lifestyle with ease.Our platform offers precisely that  a tailored experience crafted to suit your individual needs and preferences. 
+            Through personalized meal plans, we empower you to take control of your health journey, whether you&apos;re aiming to shed extra weight or simply maintain a balanced diet.</p>
+            <p className="mb-8 leading-relaxed">Gone are the days of generic diet plans that don&apos;t fit your lifestyle. 
+            With us, you&apos;ll receive nutrition solutions customized to your unique requirements. 
             We understand that every individual is different, which is why our platform takes into account your dietary preferences, health goals, and lifestyle factors to curate a plan that works best for you.</p>
             <p className="mb-8 leading-relaxed">Our goal is to make achieving better health and vitality a seamless and enjoyable process. By joining our platform, 
-            you're not just accessing meal plans – you're embarking on a transformative journey towards a healthier, happier you. 
-            Say goodbye to guesswork and hello to a personalized approach to wellness. Let's embark on this journey together!</p>
-          </div>
+            you&apos;re not just accessing meal plans  you&apos;re embarking on a transformative journey towards a healthier, happier you. 
+            Say goodbye to guesswork and hello to a personalized approach to wellness. Let&apos;s embark on this journey together!
+            </p></div>
         </div>
 
 
@@ -124,7 +125,7 @@ const HomePage: React.FC<HomeProps> = () => {
             {/* <br classname="hidden lg:inline-block">readymade gluten */}
             </h1>
             <p className="mb-8 leading-relaxed ml-[385px]  text-gray-900">Connect with our expert nutritionists for personalised<br/> guidance on your health goals.
-             Our dedicated  consultants<br/> provide tailored advice, answer your queries, and ensure you <br/>stay on the right track. Elevate your journey to optimal <br/> wellness with Diet Munch's professional nutritionist consultations.</p>
+             Our dedicated  consultants<br/> provide tailored advice, answer your queries, and ensure you <br/>stay on the right track. Elevate your journey to optimal <br/> wellness with Diet Munch&apos;s professional nutritionist consultations.</p>
 
              <div>
             <Link href="">
@@ -186,9 +187,6 @@ const HomePage: React.FC<HomeProps> = () => {
   <img className="h-80 w-80 mr-20 ml-[100px] -mt-[-100px]" alt="hero" src="/201.jpeg" />
   </div>
     
-
-
-          
 
     </div>
      
