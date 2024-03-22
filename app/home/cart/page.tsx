@@ -12,7 +12,7 @@ export default function Home() {
           
           <section className="body-font overflow-hidden p-6">
           
-            <div className="w-5/6 h-5/6 bg-fuchsia-700 rounded-lg mr-8 ml-5 mt-5  ">
+            <div className="w-5/6 h-5/6 bg-fuchsia-700 justify-center items-center rounded-lg mr-8 ml-5 mt-5  ">
               <h1 className="font-serif text-4xl font-medium ml-20">Place Order</h1>
             </div>
          
