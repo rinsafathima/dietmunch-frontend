@@ -11,12 +11,12 @@ export default function Home() {
         <section className="body-font overflow-hidden p-6">
         <div className="p-[10px]"> </div>
 
-        <div className="mb-10 ml-96">
+        <div className="mb-10 mt-10 ml-96">
           <img src="/payment/5.gif" className="max-w-full h-96 rounded-full ml-2 " alt="" />
         </div>
 
           <p className="leading-relaxed  mb-5 text-gray-900 font-large text-4xl font-sans ml-[560px]"> Thank You! </p>
-            <p className="leading-relaxed mb-5 text-gray-900 font-large text-xl font-sans ml-[530px]"> Payment done successfully .. </p> 
+            <p className="leading-relaxed mb-5 text-gray-900 font-large text-xl font-sans ml-[530px]"> Payment done successfully.. </p> 
 
             <Link href="../home">
               <button
