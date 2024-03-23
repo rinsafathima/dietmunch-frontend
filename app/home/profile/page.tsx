@@ -22,7 +22,7 @@ export default function Home() {
             </div>
           </div>
 
-          <form className="space-y-4">
+
           <div className="h-68 w-72 bg-gray-200 rounded-lg mb-14 mr-20 ml-4 ">
             <section className="body-font overflow-hidden p-6">
               <h1 className="font-sans text-lg p-6 -ml-2 -mt-5 font-mediumn "><b>User Profile Details..</b></h1>
@@ -43,13 +43,8 @@ export default function Home() {
               </Link>
             </section>
           </div>
-          </form>
-
         </section>
-        
       </div>
-
-      
 
       <div className=" w-11/12 mt-20 mb-14 mr-24 -ml-20 bg-gray-200 rounded-lg p-4 m-4">
       <h1 className="font-sans text-2xl ml-16 mt-7 font-medium "><b>Health Goals: </b></h1>
@@ -78,17 +73,12 @@ export default function Home() {
             </button>
           </Link>
 
-
       </div>
-      
-     
-
-      
 
     </div>
 
  
 
-  );
+      );
 }
 

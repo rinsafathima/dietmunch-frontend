@@ -5,11 +5,10 @@ export default function Home() {
     return (
       
       <div className="bg-gradient-to-r from-gray-600 to-gray-800 flex"> 
+      
 
         <div className="h-fit w-3/5 rounded-lg mt-0 mr-16 ml-20">
          <section className="body-font overflow-hidden">
-
-         <form className="space-y-4">
 
           <div className="h-68 mt-20 bg-gray-200 rounded-lg mb-12 mr-20 ml-4 ">
             <section className="body-font overflow-hidden p-6">
@@ -128,16 +127,13 @@ export default function Home() {
 
             </section>
           </div>
-          </form>
         </section>
       </div>
-
-      <form className="space-y-4">
 
       <div className=" w-7/12 mt-12 mb-12 mr-24 -ml-20 bg-gray-200 rounded-lg p-1 m-4">
       <h1 className="font-sans text-2xl ml-8 mt-7 mb-3 font-medium "><b>Health Goals: </b></h1>
 
-      
+      <form className="space-y-4">
       <div>
       <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Primary Goal: </label>
       <input
@@ -146,7 +142,9 @@ export default function Home() {
         className='w-96 bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' 
       />
       </div>
+      </form>
 
+      <form className="space-y-4">
       <div>
       <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Cuisine Type: </label>
       <input
@@ -155,7 +153,9 @@ export default function Home() {
         className='w-96 ml-1 bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' 
       />
       </div>
+      </form>
 
+      <form className="space-y-4">
       <div>
       <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Timeline: </label>
       <input
@@ -164,9 +164,11 @@ export default function Home() {
         className='w-96 bg-white ml-10 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' 
       />
       </div>
+      </form>
 
       <h1 className="font-sans text-2xl ml-8 mt-7 mb-3 font-medium  "><b>Dietary Preferences:</b></h1>
 
+      <form className="space-y-4">
       <div>
       <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Cuisine Type: </label>
       <input
@@ -175,7 +177,9 @@ export default function Home() {
         className='w-96 bg-white ml-1  rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' 
       />
       </div>
+      </form>
 
+      <form className="space-y-4">
       <div>
       <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Allergies: </label>
       <input
@@ -184,7 +188,9 @@ export default function Home() {
         className='w-96 bg-white ml-10 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' 
       />
       </div>
+      </form>
 
+      <form className="space-y-4">
       <div>
       <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Dietary Restrictions: </label>
       <input
@@ -193,10 +199,12 @@ export default function Home() {
         className='w-80 ml-1 bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' 
       />
       </div>
+      </form>
 
       <h1 className="font-sans text-2xl ml-8 mt-7 mb-3 font-medium "><b>Other Preferences: </b></h1>
 
 
+      <form className="space-y-4">
       <div>
       <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Meal Frequency: </label>
       <input
@@ -205,7 +213,9 @@ export default function Home() {
         className='w-80 ml-10 bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' 
       />
       </div>
+      </form>
 
+      <form className="space-y-4">
       <div>
       <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Water Intake Goal: </label>
       <input
@@ -214,6 +224,7 @@ export default function Home() {
         className='w-80 ml-5 bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' 
       />
       </div>
+      </form>
 
       <h1 className="font-sans text-2xl ml-8 mt-7 mb-3 font-medium  "><b>Personal Notes: </b></h1>
       <input
@@ -234,7 +245,6 @@ export default function Home() {
 
 
       </div>
-      </form>
 
       </div>
     );
