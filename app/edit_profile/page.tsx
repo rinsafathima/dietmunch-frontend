@@ -9,6 +9,8 @@ export default function Home() {
         <div className="h-fit w-3/5 rounded-lg mt-0 mr-16 ml-20">
          <section className="body-font overflow-hidden">
 
+         <form className="space-y-4">
+
           <div className="h-68 mt-20 bg-gray-200 rounded-lg mb-12 mr-20 ml-4 ">
             <section className="body-font overflow-hidden p-6">
               <h1 className="font-sans text-lg p-6 -ml-2 -mt-5 font-mediumn "><b>User Profile Details..</b></h1>
@@ -126,12 +128,16 @@ export default function Home() {
 
             </section>
           </div>
+          </form>
         </section>
       </div>
+
+      <form className="space-y-4">
 
       <div className=" w-7/12 mt-12 mb-12 mr-24 -ml-20 bg-gray-200 rounded-lg p-1 m-4">
       <h1 className="font-sans text-2xl ml-8 mt-7 mb-3 font-medium "><b>Health Goals: </b></h1>
 
+      
       <div>
       <label htmlFor="textInput" className='font-serif text-base text-black font-medium ml-16 mt-3'>Primary Goal: </label>
       <input
@@ -228,6 +234,7 @@ export default function Home() {
 
 
       </div>
+      </form>
 
       </div>
     );
