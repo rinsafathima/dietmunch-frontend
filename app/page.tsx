@@ -8,9 +8,9 @@ import { url } from 'inspector';
 export default function Page() {
   
   return (
-    <main className="flex min-h-screen flex-col justify-center items-center p-6 relative text-black">
+<main className="flex min-h-screen flex-col justify-center items-center p-6 relative text-white">
   <video autoPlay loop muted className="absolute top-0 left-0 w-full h-full object-cover z-0">
-    <source src="/1.mp4" type="video/mp4" />
+    <source src="/3.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
   <div className="text-center relative z-10">
@@ -19,7 +19,7 @@ export default function Page() {
     </h1>
     <p className="text-lg md:text-xl mb-4">
       The place where you can get your personalized healthy meal to your doorstep,{' '}
-      <a href="https://nextjs.org/learn/" className="text-blue-500">
+      <a href="home" className="text-blue-500">
         Diet Munch
       </a>
       , on a subscription basis.
