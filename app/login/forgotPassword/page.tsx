@@ -15,7 +15,7 @@ const forgotPassword: React.FC = () => {
       <div className='container mx-auto'>
         <div className='flex w-8/12 bg-white rounded-[10px] mx-auto shadow-lg overflow-hidden'>
           <div className="w-1/2 flex flex-col items-center justify-center p-12 bg-no-repeat bg-center bg-gradient-to-tl from-emerald-300 to-teal-400 ">
-            <h1 className='text-white text-4xl font-bold mb-3'>Troble login in?</h1>
+            <h1 className='text-white text-4xl font-bold mb-3'>Trouble login in?</h1>
             <div className=''>
               <p className='text-white text-center'>Fear not. we&apos;ll email you instructions to reset your password</p>
             </div>
