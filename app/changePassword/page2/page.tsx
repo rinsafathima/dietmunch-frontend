@@ -32,7 +32,7 @@ const changePassword: React.FC = () => {
                         <h3 className='pb-3 font-bold text-center text-gray-400 text-3xl flex flex-col pt-10 pb-20'>Your password has changed successfully</h3>
                         
 
-                        <div className="flex flex-col justify-center">
+                        <div className="flex flex-col justify-center pt-20">
                             <button
                                 type="submit"
                                 className="bg-teal-300 text-white px-10 py-2 rounded-md hover:bg-teal-600 focus:outline-none focus:bg-teal-600"

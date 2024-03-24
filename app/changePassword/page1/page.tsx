@@ -1,15 +1,13 @@
 import React from 'react';
-import Image from 'next/image';
 import {
     
     KeyIcon,
-    ExclamationCircleIcon,
     LockClosedIcon
     
 
 } from '@heroicons/react/24/outline';
-import { ArrowRightIcon } from '@heroicons/react/20/solid';
-import { Button } from '@/app/ui/button';
+import Link from 'next/link';
+
 
 
 
@@ -29,7 +27,7 @@ const changePassword: React.FC = () => {
                         <div className='flex flex-col items-center pb-50  '>
                             <LockClosedIcon className='text-teal-500 h-40 font-bold ' />
                         </div>
-                        <h3 className='pb-3 font-semibold text-gray-400 flex flex-col pt-5'>Change password</h3>
+                        <h3 className='pb-3 font-semibold text-gray-400 flex  flex-col pt-5'>Change password</h3>
                         <form className="space-y-4">
 
                             <div className="relative grid grid-cols-1 gap-4">
@@ -56,17 +54,17 @@ const changePassword: React.FC = () => {
                                     className="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-teal-400 pl"
                                     placeholder="Confirm Password"
                                 />
-                            </div>
-
-                            <div className="flex flex-col justify-center">
-                                <button
-                                    type="submit"
-                                    className="bg-teal-300 text-white px-10 py-2 rounded-md hover:bg-teal-600 focus:outline-none focus:bg-teal-600"
-                                >
-                                    Save
-                                </button>
-
-                            </div>
+                            </div >
+                            <Link href='/changePassword/page2'>
+                                <div className="flex flex-col justify-center pt-4">
+                                    <button
+                                        type="submit"
+                                        className="bg-teal-300 text-white px-10 py-2 rounded-md hover:bg-teal-600 focus:outline-none focus:bg-teal-600"
+                                    >
+                                        Save
+                                    </button>
+                                </div>
+                            </Link>
                         </form>
                     </div>
                 </div>
