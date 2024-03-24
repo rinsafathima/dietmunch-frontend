@@ -1,11 +1,9 @@
 import React from 'react';
-import Image from 'next/image';
 import {
   AtSymbolIcon,
   KeyIcon,
-  ExclamationCircleIcon,
 } from '@heroicons/react/24/outline';
-import { Button } from '@/app/ui/button';
+
 
 
 
@@ -102,10 +100,10 @@ const Registration: React.FC = () => {
                 />
               </div>
 
-              <div className="flex justify-center">
+              <div className="flex flex-col justify-center">
                 <button
                   type="submit"
-                  className="bg-teal-300 text-white px-4 py-2 rounded-md hover:bg-teal-600 focus:outline-none focus:bg-teal-600"
+                  className="bg-teal-300 font-bold text-white px-4 py-2 rounded-md hover:bg-teal-600 focus:outline-none focus:bg-teal-600"
                 >
                   Register
                 </button>
