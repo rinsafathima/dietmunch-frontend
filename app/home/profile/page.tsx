@@ -34,7 +34,7 @@ export default function Home() {
               <p className="leading-relaxed text-gray-900 text-base mt-3 font-serif"> Mobile No: </p>
               <p className="leading-relaxed text-gray-900 text-base mt-3 font-serif"> E-mail: </p>
 
-              <Link href="../../edit_profile">
+              <Link href="profile/edit_profile">
                 <button
                   type="submit"
                   className=" mt-7 ml-48 -mb-16 px-3 py-1 bg-sky-500 border-0 rounded text-white font-medium hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-200"
