@@ -7,46 +7,30 @@ import { lusitana } from '@/app/ui/fonts';
 
 export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col p-6">
-      <div className="flex h-20 shrink-0 items-end rounded-lg bg-darkGreen-500 p-4 md:h-52">
-        {/* <AcmeLogo /> */}
-      </div>
-      <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
-        <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
-        <div className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent"/>
-        <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Welcome to Diet Munch.</strong> The place where you can get your personalized healthy meal to your doorstep {' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Diet munch
-            </a>
-            , on subscription basis.
-          </p>
-          <Link
-            href="/login"
-            className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
-          >
-            <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
-          </Link>
-        </div>
-        <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-          {/* Add Hero Images Here */}
-          {/* <Image
-            src="/hero-desktop.png"
-            width={1000}
-            height={760}
-            className="hidden md:block"
-            alt="Screenshots of the dashboard project showing desktop version"
-          /> */}
-          {/* <Image
-           src="/hero-mobile.png"
-           width={560}
-           height={620}
-           className="block md:hidden"
-           alt="Screenshot of the dashboard project showing mobile version"
-          /> */}
-        </div>
-        </div>
-      {/* </div> */}
-    </main>
+    <main className="flex min-h-screen flex-col justify-center items-center p-6 relative text-black">
+  <video autoPlay loop muted className="absolute top-0 left-0 w-full h-full object-cover z-0">
+    <source src="/3.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div className="text-center relative z-10">
+    <h1 className="text-3xl md:text-5xl font-bold mb-4">
+      Welcome to Diet Munch
+    </h1>
+    <p className="text-lg md:text-xl mb-4">
+      The place where you can get your personalized healthy meal to your doorstep,{' '}
+      <a href="https://nextjs.org/learn/" className="text-blue-500">
+        Diet Munch
+      </a>
+      , on a subscription basis.
+    </p>
+    <Link
+      href="/login"
+      className="inline-block px-6 py-3 rounded-lg bg-blue-500 text-white font-medium transition-colors hover:bg-blue-400"
+    >
+      Log in
+    </Link>
+  </div>
+</main>
+
   );
 }
