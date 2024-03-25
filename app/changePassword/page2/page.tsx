@@ -22,6 +22,7 @@ const changePassword: React.FC = () => {
                     </div>
 
                     <div className='w-1/2  py-16 px-12 '>
+                        
                         <div className='flex flex-col items-center '>
                             <CheckBadgeIcon className='text-teal-500 h-40 font-bold ' />
                         </div>

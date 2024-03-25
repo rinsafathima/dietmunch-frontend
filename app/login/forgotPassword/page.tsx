@@ -1,8 +1,9 @@
 import React from 'react';
-import Image from 'next/image';
+import Link from 'next/link';
 import {
   AtSymbolIcon,
   ExclamationCircleIcon,
+  CheckCircleIcon,
   
 } from '@heroicons/react/24/outline';
 
@@ -37,6 +38,15 @@ const forgotPassword: React.FC = () => {
                 placeholder="Username / Email address"
                 />
               </div>
+              <div className="relative grid grid-cols-1 gap-4">
+              <CheckCircleIcon className="absolute left-3 top-1/2 h-5 w-5 text-gray-400 transform -translate-y-1/2 pointer-events-none" />
+                <input
+                type="text"
+                id="code"
+                className=" border border-gray-300 rounded-md px-20 py-2 focus:outline-none focus:border-teal-400 pl-10"
+                placeholder="Verification code"
+                />
+              </div>
 
               <div className="flex flex-col justify-center">
                 <button
@@ -46,9 +56,11 @@ const forgotPassword: React.FC = () => {
                   Reset Password
                 </button>
               </div>
+              <Link href='/login'>
               <div>
-                <p className=" text-teal-400 text-center font-semibold underline hover:text-teal-500 cursor-pointer"> Return to login</p>
+                <p className=" text-teal-400 text-center pt-4 font-semibold underline hover:text-teal-500 cursor-pointer"> Return to login</p>
               </div>
+              </Link>
           </form>
           </div>
         </div>
