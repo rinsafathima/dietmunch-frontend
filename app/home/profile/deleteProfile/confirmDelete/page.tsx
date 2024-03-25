@@ -1,9 +1,6 @@
 import React from 'react';
-import Image from 'next/image';
+
 import {
-    AtSymbolIcon,
-    KeyIcon,
-    ExclamationCircleIcon,
     UserCircleIcon,
 
 } from '@heroicons/react/24/outline';

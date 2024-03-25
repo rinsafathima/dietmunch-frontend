@@ -1,7 +1,6 @@
 import React from 'react';
 import {
     FaceFrownIcon,
-    UserCircleIcon,
 
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
