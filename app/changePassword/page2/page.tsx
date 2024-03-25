@@ -1,15 +1,11 @@
 import React from 'react';
-import Image from 'next/image';
 import {
-    AtSymbolIcon,
-    KeyIcon,
-    ExclamationCircleIcon,
     CheckBadgeIcon,
     LockClosedIcon,
 
 } from '@heroicons/react/24/outline';
-import { ArrowRightIcon } from '@heroicons/react/20/solid';
-import { Button } from '@/app/ui/button';
+import Link from 'next/link'
+
 
 
 
@@ -31,16 +27,16 @@ const changePassword: React.FC = () => {
                         </div>
                         <h3 className='pb-3 font-bold text-center text-gray-400 text-3xl flex flex-col pt-10 pb-20'>Your password has changed successfully</h3>
                         
-
-                        <div className="flex flex-col justify-center pt-20">
-                            <button
-                                type="submit"
-                                className="bg-teal-300 text-white px-10 py-2 rounded-md hover:bg-teal-600 focus:outline-none focus:bg-teal-600"
-                            >
-                                Continue
-                            </button>
-                        </div>
-                            
+                        <Link href="/home/profile">
+                            <div className="flex flex-col justify-center pt-20">
+                                <button
+                                    type="submit"
+                                    className="bg-teal-300 text-white px-10 py-2 rounded-md hover:bg-teal-600 focus:outline-none focus:bg-teal-600"
+                                >
+                                    Continue
+                                </button>
+                            </div>
+                        </Link>    
                         
                     </div>
                 </div>
