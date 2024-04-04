@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import 'tailwindcss/tailwind.css'; // Import Tailwind CSS styles
+import Link from 'next/link';
 
-export default function Home() {
+export default function Subcribepage() {
   return (
     <div className="bg-gradient-to-r from-gray-600 to-gray-800 min-h-screen">
       <Head>
@@ -23,8 +24,9 @@ export default function Home() {
             Automated grocery lists for chosen plans.
             </p>
             <div className="flex justify-center">
+            <Link href="Subscription/sub-successful">
               <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Subscribe</button>
-              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+             </Link>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -47,8 +49,9 @@ export default function Home() {
             Advanced recipe filtering based on specific health goals.
             Portion control guidance for personalized calorie targets.</p>
             <div className="flex justify-center">
+            <Link href="Subscription/sub-successful">
               <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Subscribe</button>
-              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+            </Link>
             </div>
           </div>
         </div>
@@ -68,8 +71,9 @@ export default function Home() {
             In-depth nutritional analysis of your meal plans for deeper understanding.
             </p>
             <div className="flex justify-center">
+            <Link href="Subscription/sub-successful">
               <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Subscribe</button>
-              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+              </Link>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
