@@ -96,7 +96,7 @@ const HomePage: React.FC<HomeProps> = () => {
             Input your preferences,<br/> set goals, and dive into a world of tailored meal plans and expert<br/> guidance. Your path to wellness begins here.</p>
 
             <div>
-            <Link href="">
+            <Link href="../registration">
             <button
               type="submit"
               className="inline-flex ml-36 items-center ml-9 px-4 py-2 bg-emerald-900 border-0 rounded text-white font-medium hover:bg-green-950 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-lime-300"
@@ -105,7 +105,7 @@ const HomePage: React.FC<HomeProps> = () => {
           </Link>
 
 
-          <Link href="">
+          <Link href="../login">
             <button
               type="submit" 
               className="inline-flex items-center ml-[70px]  mt-[-100px] px-4 py-2 bg-emerald-900 border-0 ml-44 rounded text-white font-medium hover:bg-green-950 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-lime-300"
@@ -128,7 +128,7 @@ const HomePage: React.FC<HomeProps> = () => {
              Our dedicated  consultants<br/> provide tailored advice, answer your queries, and ensure you <br/>stay on the right track. Elevate your journey to optimal <br/> wellness with Diet Munchs professional nutritionist consultations.</p>
 
              <div>
-            <Link href="">
+            <Link href="home/activity">
             <button
               type="submit"
               className="inline-flex ml-[450px] items-center ml-9 px-4 py-2 bg-emerald-900 border-0 rounded text-white font-medium hover:bg-green-950 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-lime-300"
