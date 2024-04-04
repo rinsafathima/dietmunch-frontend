@@ -23,9 +23,9 @@ const links = [
     icon: ShoppingCartIcon,
   },
   { name: 'Profile', href: '/home/profile', icon: UserIcon },
-  { name: 'Subscription', href: '/home/subscription', icon: CreditCardIcon },
+  { name: 'Subscription', href: '/home/Subscription', icon: CreditCardIcon },
   { name: 'Join Now', href: '/home/join', icon: CursorArrowRippleIcon },
-  { name: 'Activity', href: '/home/activity', icon: MapPinIcon },
+  { name: 'Nutrition Booking', href: '/home/activity', icon: MapPinIcon },
 ];
 
 export default function NavLinks() {
