@@ -25,7 +25,7 @@ export default function Home() {
             </button>
           </Link>
         
-          <Link href="../profile/deleteProfile">
+          <Link href="../profile/deleteProfile/deleting">
             <button
               type="submit"
               className="inline-flex mt-8 h-16 w-96 ml-16 items-center px-7 py-1 bg-gray-400 border-0 rounded text-black font-medium hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
@@ -35,7 +35,7 @@ export default function Home() {
             </button>
           </Link>
 
-          <Link href="../profile/changePassword">
+          <Link href="../../changePassword/page1">
             <button
               type="submit"
               className="inline-flex mt-8 ml-16 h-16 w-96 items-center px-7 py-1 bg-gray-400 border-0 rounded text-black font-base hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
