@@ -6,6 +6,7 @@ import {
 } from '@heroicons/react/24/outline';
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 import { Button } from '@/app/ui/button';
+import Link from 'next/link';
 
  
 export default function LoginForm() {
@@ -59,8 +60,16 @@ export default function LoginForm() {
           </div>
         </div>
         <LoginButton />
-        
+        <Link href='forgotPassword'><a href="https://nextjs.org/learn/" className="text-blue-500 ml-[100px] -mt-[-10px]">
+        Forgot password ?
+      </a>
+      </Link>
+
+      <p className='ml-[50px]'> Don&apos;t have an account? <Link href='registration' ><a href="https://nextjs.org/learn/" className="text-blue-500">
+        Sign Up
+      </a></Link></p>
       </div>
+      
     </form>
   );
 }
