@@ -157,7 +157,7 @@ export default function BookingPage() {
               <button
                 type="submit"
                 className="inline-flex items-center px-4 py-2 bg-fuchsia-800 border-0 rounded text-white font-medium hover:bg-fuchsia-950 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-              >BOOK NOW
+              >BOOK NOW 
               </button>
             </Link>
               

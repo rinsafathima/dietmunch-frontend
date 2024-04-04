@@ -20,7 +20,7 @@ export default function Page() {
     <p className="text-lg md:text-xl mb-4">
       The place where you can get your personalized healthy meal to your doorstep,{' '}
       <a href="home" className="text-blue-500">
-        Diet Munch
+        Diet Munch 
       </a>
       , on a subscription basis.
     </p>
