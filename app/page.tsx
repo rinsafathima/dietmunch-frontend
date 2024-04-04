@@ -26,7 +26,7 @@ export default function Page() {
     </p>
     <Link
       href="/login"
-      className="inline-block px-6 py-3 rounded-lg bg-blue-500 text-white font-medium transition-colors hover:bg-blue-400"
+      className="inline-block px-6 py-3 rounded-lg bg-blue-500 text-white font-medium transition-colors mb-[-10px] hover:bg-blue-400"
     >
       Log in
     </Link>
