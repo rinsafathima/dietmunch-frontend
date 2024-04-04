@@ -24,9 +24,7 @@ export default function Home() {
             happier you? Look no further! I am a certified and experienced online nutritionist, 
             dedicated to helping you achieve your wellness goals from the comfort of your own home.
             </p>
-            <div className="flex justify-center">
-              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Schedule Now!</button>
-            </div>
+           
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           </div>
