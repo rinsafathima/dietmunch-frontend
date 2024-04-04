@@ -1,18 +1,37 @@
-name: Next.js CI
+name: Next.js CI/CD
 
 on: push
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
+    # Checkout the code
     - uses: actions/checkout@v2
+    
+    # Setup Node.js
     - name: Use Node.js
       uses: actions/setup-node@v2
       with:
         node-version: '18'
+    
+    # Install dependencies
     - name: Install dependencies
       run: npm install
+    
+    # Build the project (Optional here since Vercel builds on deployment)
     - name: Build
       run: npm run build
+      
+    # Run tests (optional step if you have tests configured)
+    - name: Run tests
+      run: npm test
+      
+    # Deploy to Vercel
+    - name: Deploy to Vercel
+      run: npx vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
+      env:
+        # Make sure VERCEL_TOKEN is set in your repository secrets
+        VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
