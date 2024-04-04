@@ -48,14 +48,16 @@ const forgotPassword: React.FC = () => {
                 />
               </div>
 
-              <div className="flex flex-col justify-center">
-                <button
-                  type="submit"
-                  className="bg-teal-300 text-white px-4 py-2 rounded-md hover:bg-teal-600 focus:outline-none focus:bg-teal-600"
-                >
-                  Reset Password
-                </button>
-              </div>
+              <Link href='../login/forgotPassword/reseted'>
+                <div className="flex flex-col justify-center">
+                  <button
+                    type="submit"
+                    className="bg-teal-300 text-white px-4 py-2 rounded-md hover:bg-teal-600 focus:outline-none focus:bg-teal-600"
+                  >
+                    Reset Password
+                  </button>
+                </div>
+              </Link>
               <Link href='/login'>
               <div>
                 <p className=" text-teal-400 text-center pt-4 font-semibold underline hover:text-teal-500 cursor-pointer"> Return to login</p>
