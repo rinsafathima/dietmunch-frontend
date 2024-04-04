@@ -109,7 +109,7 @@ export default function Home() {
           <div className="p-[10px]"> </div>
 
           
-          <Link href="../../thank_you">
+          <Link href="cart/thank_you">
             <button
               type="submit"
               className="inline-flex items-center px-4 py-2 bg-fuchsia-800 border-0 rounded text-white font-medium hover:bg-fuchsia-950 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
