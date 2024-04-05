@@ -6,13 +6,13 @@ import Link from 'next/link';
 export default function Home() {
     return (
       
-      <div className="bg-gradient-to-r from-gray-600 to-gray-800 flex"> 
+      <div className="bg-gradient-to-r from-emerald-200 to-teal-300 flex"> 
 
-        <div className="h-fit w-3/5 ml-10 bg-gray-200 rounded-lg mt-28 mr-16">
+        <div className="h-fit w-3/5 ml-10 bg-teal-50 rounded-lg mt-28 mr-16">
           
           <section className="body-font overflow-hidden p-6">
           
-            <div className="w-5/6 h-5/6 bg-fuchsia-700 rounded-lg mr-8 ml-5 mt-5  ">
+            <div className="w-5/6 h-5/6 bg-fuchsia-700 justify-center items-center rounded-lg mr-8 ml-5 mt-5  ">
               <h1 className="font-serif text-4xl font-medium ml-20">Place Order</h1>
             </div>
          
@@ -109,7 +109,7 @@ export default function Home() {
           <div className="p-[10px]"> </div>
 
           
-          <Link href="../../thank_you">
+          <Link href="cart/thank_you">
             <button
               type="submit"
               className="inline-flex items-center px-4 py-2 bg-fuchsia-800 border-0 rounded text-white font-medium hover:bg-fuchsia-950 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
