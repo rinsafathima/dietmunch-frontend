@@ -4,13 +4,13 @@ import Link from 'next/link';
 export default function Home() {
     return (
       
-      <div className="bg-gradient-to-r from-gray-600 to-gray-800 flex"> 
+      <div className="bg-gradient-to-r from-emerald-200 to-teal-300 flex"> 
       
 
         <div className="h-fit w-3/5 rounded-lg mt-0 mr-16 ml-20">
          <section className="body-font overflow-hidden">
 
-          <div className="h-68 mt-20 bg-gray-200 rounded-lg mb-12 mr-20 ml-4 ">
+          <div className="h-68 mt-20 bg-sky-100 rounded-lg mb-12 mr-20 ml-4 ">
             <section className="body-font overflow-hidden p-6">
               <h1 className="font-sans text-lg p-6 -ml-2 -mt-5 font-mediumn "><b>User Profile Details..</b></h1>
               <form className="space-y-4">
@@ -132,7 +132,7 @@ export default function Home() {
 
       
 
-      <div className=" w-7/12 mt-12 mb-12 mr-24 -ml-20 bg-gray-200 rounded-lg p-1 m-4">
+      <div className=" w-7/12 mt-12 mb-12 mr-24 -ml-20 bg-sky-100 rounded-lg p-1 m-4">
       <Link href="../profile/settings">
             <button
                 type="submit"

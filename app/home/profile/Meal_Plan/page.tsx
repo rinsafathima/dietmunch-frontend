@@ -5,7 +5,7 @@ export default function Home() {
     
     return (
         <div>  
-            <div className="bg-gradient-to-r from-gray-600 to-gray-800 flex"> 
+            <div className="bg-gradient-to-r from-emerald-200 to-teal-300 flex"> 
                 <section className="body-font overflow-hidden p-6">
                     <h1 className="font-serif text-4xl font-medium ml-96 mt-2 text-white  ">Weekly Meal Plan</h1>
 
